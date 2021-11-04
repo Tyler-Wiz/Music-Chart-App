@@ -3,15 +3,21 @@ import './Chart.css'
 
 export const WeekOne = () => {
     return (
-        <div>
-            <div className='chart_desc'>
-                <div className='chart_desc-left'>
-                    <h3>Num</h3>
-                    <h3>Week</h3>
+        <div >
+            <div className='chart_container'>
+                <div className='chart_left' >
+                    <h3 className='chart_number'>Num</h3>
+                    <h3 className='chart_week'>Week</h3>
                 </div>
-                <div className='chart_desc-right'>
-                    <h3>Song</h3>
-                    <h3>Release Date</h3>
+                <div className='chart_song'>
+                    <div className='chart_song--info'>
+                       <h3>Song</h3>
+                    </div>
+                   <div className='chart_release'>
+                        <h3>Release Date</h3>
+                        <h3>Streams</h3>
+                   </div>
+                    
                 </div>
             </div>
         {ChartData.map(item => (

@@ -87,18 +87,15 @@ body{
 }
 
 .chart_song--info{
-    width: 30%;
     align-self: center;
 }
 
 .chart_desc{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 3rem;
-    padding: 1.5rem;
+    justify-content: flex-start;
+    margin-top: 5rem;
     text-transform: uppercase;
-    
 }
 
 .chart_desc-left{
@@ -110,10 +107,10 @@ body{
 }
 
 .chart_desc-right{
-    width: 85%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 3rem 0 3rem 4rem;
 }
 
 .chart_song {
@@ -125,5 +122,15 @@ body{
 .chart_release{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
+}
+
+.desc-left{
+    display: flex;
+}
+
+.desc-right{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
 }
