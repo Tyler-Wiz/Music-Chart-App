@@ -10,41 +10,64 @@ html{
     font-size: 10px;
 }
 
+h1 {
+    margin: 0;
+    font-size:clamp(2rem, 2.5vw, 3rem) ;
+}
+
+h2 {
+    margin: 0;
+    font-size:clamp(1.6rem, 2.5vw, 1.8rem) ;
+}
+
+p {
+    margin: 0;
+    font-size:clamp(1rem, 2.5vw, 1.1rem) ;
+    font-weight:400;
+    color: rgb(171, 193, 245);
+}
+
 body{
    width: 90%;
    margin: 0 auto;
    font-family: 'Montserrat', sans-serif;
+   color: white;
+   background-color: rgb(1, 15, 47);
 }
 
 .chart_container{
     width: 100%;
     display: flex;
-    /* padding: .5rem; */
-    border-top: 1px solid rgb(170, 164, 164);
+    padding: 1rem;
+    border-top: 1px solid rgb(171, 193, 245);
+    cursor: pointer;
+}
+
+.chart_container:hover{
+    background-color: rgba(2, 37, 117, 0.383);
 }
 
 .chart_left{
-    width: 10%;
+    width: 20%;
     display: flex;
 }
 .chart_song--container{
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: flex-start;
-    padding: .5rem;
 }
 
 .chart_number{
-    background-color: rgba(31, 54, 97, 0.76);
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(2, 37, 117, 0.698);
 }
 
 .chart_week{
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -64,5 +87,43 @@ body{
 }
 
 .chart_song--info{
+    width: 30%;
     align-self: center;
+}
+
+.chart_desc{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    
+}
+
+.chart_desc-left{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.chart_desc-right{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.chart_song {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chart_release{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
 }

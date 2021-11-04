@@ -32,7 +32,9 @@ export const ChartData = [
       stream:{
          spotify:'',
          audiomack:''
-      }
+      },
+      releaseDate:'Sept 03, 2021',
+      totalStreams:'19,200,000'
     },
     {
       id:2,
@@ -44,7 +46,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     }
+     },
+     releaseDate:'Sept 24, 2021',
+     totalStreams:'30,100,000'
     },
     {
       id:3,
@@ -56,7 +60,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     }
+     },
+     releaseDate:'July 27, 2021',
+     totalStreams:'12,400,000'
       
     },
     {
@@ -69,7 +75,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     }
+     },
+     releaseDate:'Oct 10, 2021',
+     totalStreams:'3,818,000'
     },
     {
       id:5,
@@ -81,7 +89,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'July 21, 2021',
+     totalStreams:'28,400,000' 
     },
     {
       id:6,
@@ -93,7 +103,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     } ,
+     releaseDate:'Oct 22, 2021',
+     totalStreams:'2,045,000' 
     },
     {
       id:7,
@@ -105,7 +117,10 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     } ,
+     releaseDate:'Oct 20, 2021',
+     totalStreams:'1,131,000'
+
     },
     {
       id:8,
@@ -117,7 +132,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Oct 27, 2021',
+     totalStreams:'101,000' 
     },
     {
       id:9,
@@ -129,7 +146,10 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Oct 13, 2021',
+     totalStreams:'2,163,000'
+
     },
     {
       id:10,
@@ -141,7 +161,10 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Oct 27, 2021',
+     totalStreams:'960,000'
+ 
     },
     {
       id:11,
@@ -153,7 +176,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Oct 07, 2021',
+     totalStreams:'8,222,000' 
     },
     {
       id:12,
@@ -165,7 +190,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Oct 21, 2021',
+     totalStreams:'2,777,000'  
     },
     {
       id:13,
@@ -177,7 +204,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'July 30, 2021',
+     totalStreams:'20,600,000' 
     },
     {
       id:14,
@@ -189,7 +218,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Oct 08, 2021',
+     totalStreams:'7,412,000'  
     },
     {
       id:15,
@@ -201,7 +232,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Oct 10, 2021',
+     totalStreams:'2,376,000' 
     },
     {
       id:16,
@@ -213,7 +246,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     } ,
+     releaseDate:'Aug 08, 2021',
+     totalStreams:'29,500,000' 
     },
     {
       id:17,
@@ -225,7 +260,10 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Aug 20, 2021',
+     totalStreams:'101,000'  
+
     },
     {
       id:18,
@@ -237,7 +275,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Aug 07, 2021',
+     totalStreams:'33,800,000'  
     },
     {
       id:19,
@@ -249,7 +289,9 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Aug 27, 2021',
+     totalStreams:'101,000'  
     },
     {
       id:20,
@@ -261,6 +303,8 @@ export const ChartData = [
       stream:{
         spotify:'',
         audiomack:''
-     } 
+     },
+     releaseDate:'Oct 27, 2021',
+     totalStreams:'690,000'   
     },
 ]
