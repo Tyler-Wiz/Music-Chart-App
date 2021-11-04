@@ -28,7 +28,7 @@ p {
 }
 
 body{
-   width: 90%;
+   width: 100%;
    margin: 0 auto;
    font-family: 'Montserrat', sans-serif;
    color: white;
@@ -118,8 +118,31 @@ body{
     text-transform: uppercase;
 }
 
+.chart_mobile--number{
+    display: none;
+}
+
 @media (max-width:550px) {
         .streams{
             display: none;
         }  
+
+        .chart_left{
+            display: none;
+        }
+        .chart_mobile--number{
+           display: inline-block;
+           background-color: rgba(2, 37, 117, 0.698);
+           padding: .3rem .8rem;
+        }
+
+        .chart_release{
+            display: flex;
+            justify-content: flex-end;
+            width: 35%;
+        }
+
+        .release{
+            align-self: flex-start;
+        }
 }

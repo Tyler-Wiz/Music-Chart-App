@@ -45,11 +45,12 @@ export const WeekOne = () => {
                     </div>
                     <div className='chart_song'>
                         <div className='chart_song--info'>
+                            <h2 className='chart_mobile--number'>{item.id}</h2>
                             <h2>{item.songName}</h2>
                             <p>{item.artist}</p>
                         </div>
                         <div className='chart_release'>
-                           <h3>{item.releaseDate}</h3>
+                           <h3 className='release'>{item.releaseDate}</h3>
                            <h3 className='streams'>{item.totalStreams}</h3>
                         </div>  
                     </div>
