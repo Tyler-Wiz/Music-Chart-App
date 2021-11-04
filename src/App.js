@@ -1,15 +1,9 @@
-import React from 'react'
-import { ChartData } from './Components/ChartData'
+import { WeekOne } from "./Components/WeekOne"
 
 export const App = () => {
   return (
     <div>
-      {ChartData.map(chart => (
-        <div>
-          {chart.id}
-          {chart.songName}
-        </div>
-      ))}
+       <WeekOne />
     </div>
   )
 }

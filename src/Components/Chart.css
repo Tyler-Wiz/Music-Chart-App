@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+   width: 90%;
+   margin: 0 auto;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.chart_container{
+    width: 100%;
+    display: flex;
+    /* padding: .5rem; */
+    border-top: 1px solid rgb(170, 164, 164);
+}
+
+.chart_left{
+    width: 10%;
+    display: flex;
+}
+.chart_song--container{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    padding: .5rem;
+}
+
+.chart_number{
+    background-color: rgba(31, 54, 97, 0.76);
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart_week{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.chart_img{
+    width: 6rem;
+    height: 5.5rem;
+    align-self: flex-start;
+    margin-right: 1rem;
+}
+
+.chart_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chart_song--info{
+    align-self: center;
+}
