@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 10px;
 }
 
@@ -51,13 +51,14 @@ body{
     width: 20%;
     display: flex;
 }
+
 .chart_song--container{
     width: 80%;
     display: flex;
     justify-content: flex-start;
 }
 
-.chart_number{
+.chart_number {
     width: 50%;
     height: 100%;
     display: flex;
@@ -85,34 +86,9 @@ body{
     height: 100%;
     object-fit: cover;
 }
-
 .chart_song--info{
     align-self: center;
 }
-
-.chart_desc{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 5rem;
-    text-transform: uppercase;
-}
-
-.chart_desc-left{
-    width: 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.chart_desc-right{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem 0 3rem 4rem;
-}
-
 .chart_song {
     width: 80%;
     display: flex;
@@ -125,12 +101,25 @@ body{
     width: 40%;
 }
 
-.desc-left{
+.chart_number--text {
+    width: 50%;
+    height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.desc-right{
+.chart_container--text{
+    width: 100%;
     display: flex;
-    width: 40%;
-    justify-content: space-between;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+@media (max-width:550px) {
+        .streams{
+            display: none;
+        }  
 }
