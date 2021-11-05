@@ -1,25 +1,3 @@
-import aleyi from '../../Assets/Img/AleYi.jpeg'
-import bloodySamaritan from '../../Assets/Img/Bloody-Samaritan.jpg'
-import coldOutside from '../../Assets/Img/Coldoutside.jpeg'
-import egedege from '../../Assets/Img/Egeedee.jpeg'
-import peru from '../../Assets/Img/Fireboy-DML-Peru.jpeg'
-import goneFar from '../../Assets/Img/GoneFar.jpeg'
-import high from '../../Assets/Img/High.jpg'
-import holyFather from '../../Assets/Img/HolyFather.jpg'
-import alcohol from '../../Assets/Img/Joeboy_alcohol.jpg'
-import lie from '../../Assets/Img/Kizz-Daniel-Lie.jpg'
-import running from '../../Assets/Img/LadiPoe-Running.jpg'
-import levels from '../../Assets/Img/Levels.jpg'
-import monalisa from '../../Assets/Img/LojayMonalisa.jpg'
-import understand from '../../Assets/Img/Understand.jpeg'
-import madeInLagos from '../../Assets/Img/made-in-lagos.jpeg'
-import ozumba from '../../Assets/Img/Ozumba-Mbadiwe.png'
-import somebodySon from '../../Assets/Img/tiwa-savage-sombody-son.jpg'
-import move from '../../Assets/Img/Timz-Move.jpg'
-import SorryImLate from '../../Assets/Img/SorryImLate.jpeg'
-
-
-
 
 
 export const ChartData = [
@@ -29,7 +7,7 @@ export const ChartData = [
       songName:'High',
       artist:'Adekunle Gold, Davido',
       onChart:'1',
-      imgUrl:high,
+      imgUrl:'./Assets/Img/High.jpg',
       stream:{
          spotify:'',
          audiomack:''
@@ -43,7 +21,7 @@ export const ChartData = [
       songName:'Alcohol',
       artist:'Joeboy',
       onChart:'1',
-      imgUrl:alcohol, 
+      imgUrl:'./Assets/Img/Joeboy_alcohol.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -57,7 +35,7 @@ export const ChartData = [
       songName:'Monalisa',
       artist:'Sarz, Lojay',
       onChart:'1',
-      imgUrl:monalisa, 
+      imgUrl:'./Assets/Img/LojayMonalisa.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -72,7 +50,7 @@ export const ChartData = [
       songName:'Cold Outside',
       artist:'Timaya, BUJU',
       onChart:'1',
-      imgUrl:coldOutside, 
+      imgUrl:'./Assets/Img/Coldoutside.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -86,7 +64,7 @@ export const ChartData = [
       songName:'Peru',
       artist:'Fireboy DML',
       onChart:'1',
-      imgUrl:peru, 
+      imgUrl:'./Assets/Img/Fireboy-DML-Peru.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -100,7 +78,7 @@ export const ChartData = [
       songName:'Egedege',
       artist:'Larry Gaaga, Theresa Onuorah, Flavour,Phyno',
       onChart:'1',
-      imgUrl:egedege, 
+      imgUrl:'./Assets/Img/Egeedee.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -114,7 +92,7 @@ export const ChartData = [
       songName:'Ozumba Mbadiwe',
       artist:'Reekado Banks',
       onChart:'1',
-      imgUrl:ozumba, 
+      imgUrl:'./Assets/Img/Ozumba-Mbadiwe.png', 
       stream:{
         spotify:'',
         audiomack:''
@@ -129,7 +107,7 @@ export const ChartData = [
       songName:'Holy Father',
       artist:'Mayorkun, Victony',
       onChart:'1',
-      imgUrl:holyFather, 
+      imgUrl:'./Assets/Img/HolyFather.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -143,7 +121,7 @@ export const ChartData = [
       songName:'Move',
       artist:'Bad Boy Timz',
       onChart:'1',
-      imgUrl:move, 
+      imgUrl: './Assets/Img/Timz-Move.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -158,7 +136,7 @@ export const ChartData = [
       songName:'Never Stopped',
       artist:'Buju',
       onChart:'1',
-      imgUrl:SorryImLate, 
+      imgUrl:'./Assets/Img/SorryImLate.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -173,7 +151,7 @@ export const ChartData = [
       songName:'Ale Yi',
       artist:'Zlatan',
       onChart:'1',
-      imgUrl:aleyi, 
+      imgUrl:'./Assets/Img/AleYi.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -187,7 +165,7 @@ export const ChartData = [
       songName:'Running',
       artist:'LADIPOE, Fireboy DML',
       onChart:'1',
-      imgUrl:running, 
+      imgUrl:'./Assets/Img/LadiPoe-Running.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -201,7 +179,7 @@ export const ChartData = [
       songName:'Bloody Samaritan',
       artist:'Ayra Starr',
       onChart:'1',
-      imgUrl:bloodySamaritan, 
+      imgUrl:'./Assets/Img/Bloody-Samaritan.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -215,7 +193,7 @@ export const ChartData = [
       songName:'Gone Far',
       artist:'Zinoleesky',
       onChart:'1',
-      imgUrl:goneFar, 
+      imgUrl:'./Assets/Img/GoneFar.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -229,7 +207,7 @@ export const ChartData = [
       songName:'Levels',
       artist:'Flavour',
       onChart:'1',
-      imgUrl:levels, 
+      imgUrl:'./Assets/Img/Levels.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -243,7 +221,7 @@ export const ChartData = [
       songName:'Lie',
       artist:'Kizz Daniel',
       onChart:'1',
-      imgUrl:lie, 
+      imgUrl:'./Assets/Img/Kizz-Daniel-Lie.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -257,7 +235,7 @@ export const ChartData = [
       songName:'Somebody’s Son',
       artist:'Tiwa Savage,Brandy',
       onChart:'1',
-      imgUrl:somebodySon, 
+      imgUrl:'./Assets/Img/tiwa-savage-sombody-son.jpg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -272,7 +250,7 @@ export const ChartData = [
       songName:'Understand',
       artist:'Omah Lay',
       onChart:'1',
-      imgUrl:understand, 
+      imgUrl:'./Assets/Img/Understand.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -286,7 +264,7 @@ export const ChartData = [
       songName:'Mood',
       artist:'WizKid, Buju',
       onChart:'1',
-      imgUrl:madeInLagos, 
+      imgUrl:'./Assets/Img/made-in-lagos.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
@@ -300,7 +278,7 @@ export const ChartData = [
       songName:'Kilometer',
       artist:'Buju',
       onChart:'1',
-      imgUrl:SorryImLate, 
+      imgUrl:'./Assets/Img/SorryImLate.jpeg', 
       stream:{
         spotify:'',
         audiomack:''
