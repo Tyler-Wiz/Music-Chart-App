@@ -1,9 +1,9 @@
-import { WeekOne } from "./Components/WeekOne"
+import { Chart } from "./Components/Chart/Chart"
 
 export const App = () => {
   return (
     <div>
-       <WeekOne />
+       <Chart />
     </div>
   )
 }

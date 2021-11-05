@@ -1,7 +1,7 @@
 import { ChartData } from './ChartData'
 import './Chart.css'
 
-export const WeekOne = () => {
+export const Chart = () => {
 
     return (
         <ul>
