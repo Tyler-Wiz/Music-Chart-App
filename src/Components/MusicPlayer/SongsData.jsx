@@ -7,7 +7,7 @@ export const songs = [
       title:'High',
       artist: 'Adekunle Gold, Davido',
       img_src: '',
-      src: './music/Alcohol.mp3'
+      src: './Assets/music/Alcohol.mp3'
     },
     {
       title: "Alcohol",
