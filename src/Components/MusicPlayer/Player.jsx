@@ -44,10 +44,8 @@ const [
                 onKeyUp={onScrubEnd}
                 style={{ background: trackStyling }}
             />
-            <div className="artist_mobile">
-                <span className="mobile_title">{title}</span>
-                <span className="mobile_artist">{artist}</span>
-             </div>
+                <span className="title_mobile">{title}</span>
+                <span className="artist_mobile">{artist}</span>
         </div>
         <div className='track_controls'>
             <Controls

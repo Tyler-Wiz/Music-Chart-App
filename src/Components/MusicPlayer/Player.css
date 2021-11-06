@@ -21,12 +21,12 @@ input[type="button"]{
 
 .audio-player{
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 92%;
+    top: 90%;
     bottom: 0;
     right: 0;
     background-color: var(--knobby);
@@ -78,17 +78,25 @@ input[type="button"]{
 
   .artist_mobile{
       position: absolute;
-      top: 100%;
+      text-align: center;
+      top: -200%;
       right: 0;
       left: 5%;
       display: none;
   }
 
-  .mobile_title{
-      font-size: 1rem;
+  .title_mobile{
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    font-size: 1rem;
       margin-right: .6rem;
       font-weight: 700;
-  }
+}
+  
 
   .track_controls{
     width: 30%;
@@ -214,5 +222,9 @@ input[type="button"]{
       }
       .track_details{
         display: none;
+      }
+
+      .title_mobile{
+          display: block;
       }
   }
