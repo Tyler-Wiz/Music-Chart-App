@@ -34,33 +34,37 @@
     width: 100%;
     height: 15vh;
     margin: 0 auto;
-    padding: 3rem;
+    /* padding: 3rem; */
     color: var(--white);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 85%;
     left: 0;
     right: 0;
-    background-color: wheat;
+    background-color: rgb(5, 13, 85);
   }
   
   .artwork {
-    border-radius: 120px;
     display: block;
     margin: auto;
     height: 10rem;
     width: 10rem;
   }
+
+.track{
+    width: 20%;
+}
   
   .track-info {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 40%;
     text-align: center;
     z-index: 1;
     position: relative;
+    margin: 0 auto;
   }
   
   .title {
@@ -76,6 +80,7 @@
   .audio-controls {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 45%;
     margin: 0 auto;
   }

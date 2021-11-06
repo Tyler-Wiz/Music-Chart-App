@@ -2,7 +2,6 @@ import {useState, useRef, useEffect} from 'react'
 import { songs } from './SongsData'
 
 export const PlayLogic = () => {
-
   const [trackIndex, setTrackIndex] = useState(0);
   const [trackProgress, setTrackProgress] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -76,15 +75,13 @@ export const PlayLogic = () => {
     } else {
       audioRef.current.pause();
     }
-  }, [isPlaying]);
+  }, [isPlaying]);  // eslint-disable-line react-hooks/exhaustive-deps
 
   // Handles cleanup and setup when changing tracks
   useEffect(() => {
     audioRef.current.pause();
-
     audioRef.current = new Audio(src);
     setTrackProgress(audioRef.current.currentTime);
-
     if (isReady.current) {
       audioRef.current.play();
       setIsPlaying(true);
@@ -93,7 +90,7 @@ export const PlayLogic = () => {
       // Set the isReady ref as true for the next pass
       isReady.current = true;
     }
-  }, [trackIndex]);
+  }, [trackIndex]);  // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     // Pause and clean up on unmount
@@ -105,7 +102,7 @@ export const PlayLogic = () => {
 
     return [
         title, artist,image,
-        isPlaying, setIsPlaying,
+        isPlaying,setIsPlaying,
         onScrubEnd,onScrub,
         toPrevTrack,toNextTrack,
         trackProgress, duration, trackStyling
