@@ -1,0 +1,147 @@
+:root {
+    --white: #fff;
+    --active-color: #00aeb0;
+    --bar-bg: #ffe3d4;
+    --seek-before-width: 0;
+    --seek-before-color: #4940c3;
+    --knobby: #04044d;
+    --selectedKnobby: #26c9c3;
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="range"] {
+    height: 2px;
+    -webkit-appearance: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #3b7677;
+    transition: background 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .player_container{
+      background-color: red;
+      z-index: 99999;
+  }
+  
+  .audio-player {
+    width: 100%;
+    height: 15vh;
+    margin: 0 auto;
+    padding: 3rem;
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 85%;
+    left: 0;
+    right: 0;
+    background-color: wheat;
+  }
+  
+  .artwork {
+    border-radius: 120px;
+    display: block;
+    margin: auto;
+    height: 10rem;
+    width: 10rem;
+  }
+  
+  .track-info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .title {
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  
+  .artist {
+    font-weight: 300;
+    margin-top: 0;
+  }
+  
+  .audio-controls {
+    display: flex;
+    justify-content: space-between;
+    max-width: 45%;
+    margin: 0 auto;
+  }
+
+  .prev,
+  .next {
+    font-size: 4rem;
+  }
+  
+  .play, 
+  .pause{
+    font-size: 5rem;
+  }
+  
+  .audio-controls path {
+    fill: var(--white);
+  }
+
+ 
+  /* knobby - chrome and safari */
+  .progressBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid #F2F1F0;
+    background-color: var(--knobby);
+    cursor: pointer;
+    position: relative;
+    margin: -2px 0 0 0;
+    z-index: 3;
+    box-sizing: border-box;
+  }
+  
+  /* knobby while dragging - chrome and safari */
+  .progressBar:active::-webkit-slider-thumb {
+    transform: scale(1.2);
+    background: var(--selectedKnobby);
+  }
+  
+  /* knobby - firefox */
+  .progressBar::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: var(--knobby);
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    box-sizing: border-box;
+  }
+  
+  /* knobby while dragging - firefox */
+  .progressBar:active::-moz-range-thumb {
+    transform: scale(1.2);
+    background: var(--selectedKnobby);
+  }
+  
+  
+  @keyframes colorChange {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+  }
+  

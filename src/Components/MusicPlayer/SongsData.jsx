@@ -1,30 +1,26 @@
-
-
-
-
 export const songs = [
     {
       title:'High',
       artist: 'Adekunle Gold, Davido',
-      img_src: '',
-      src: './Assets/music/Alcohol.mp3'
+      image: './Assets/Img/High.jpg',
+      src: './Assets/music/High.mp3'
     },
     {
       title: "Alcohol",
       artist: "Joeboy",
-      img_src: '',
-      src: ''
+      image: './Assets/Img/Joeboy_alcohol.jpg',
+      src: './Assets/music/Alcohol.mp3'
     },
     {
       title: "Monalisa",
       artist: "Sarz, Lojay",
-      img_src: '',
-      src: ''
+      image: './Assets/Img/LojayMonalisa.jpg',
+      src:'./Assets/music/Monalisa.mp3'
     },
     {
       title: "Cold Outside",
       artist: "Timaya, BUJU",
-      img_src: '',
-      src: ''
+      image: './Assets/Img/Coldoutside.jpeg',
+      src: './Assets/music/Cold_Outside.mp3'
     }
   ]

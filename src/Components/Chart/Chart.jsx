@@ -4,7 +4,7 @@ import './Chart.css'
 export const Chart = () => {
 
     return (
-        <ul>
+        <ul className='chart_list'>
             <li className='chart_container--text'>
                 <div className='chart_left'>
                     <div className='chart_number--text'>

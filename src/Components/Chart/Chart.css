@@ -35,6 +35,10 @@ body{
    background-color: rgb(1, 15, 47);
 }
 
+.chart_list{
+    margin-bottom: 19rem;
+}
+
 .chart_container{
     width: 100%;
     display: flex;
