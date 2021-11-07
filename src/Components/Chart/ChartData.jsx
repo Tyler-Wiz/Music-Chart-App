@@ -13,7 +13,7 @@ export const ChartData = [
          audiomack:''
       },
       releaseDate:'Sept 03, 2021',
-      totalStreams:'19,200,000'
+      totalStreams:'19,200,000',
     },
     {
       id:2,
