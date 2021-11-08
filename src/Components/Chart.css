@@ -29,10 +29,25 @@ p {
 
 body{
    width: 100%;
-   margin: 0 auto;
+   margin: 4rem auto;
    font-family: 'Montserrat', sans-serif;
-   color: white;
-   background-color: rgb(1, 15, 47);
+   color: black;
+}
+.chart_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart_sup {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.chart_list{
+    max-width: 1100px;
+    margin: 0 auto;
+    list-style: none;
 }
 
 .chart_container{
@@ -41,6 +56,9 @@ body{
     padding: 1rem;
     border-top: 1px solid rgb(171, 193, 245);
     cursor: pointer;
+    background-color: rgb(1, 15, 47);
+    color: white;
+    margin: 0.2rem auto;
 }
 
 .chart_container:hover{

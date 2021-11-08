@@ -8,6 +8,12 @@ const [selectedItem, setItem] = useState(0)
 const [show, setShow] = useState(false)
 
     return (
+        <>
+       
+        <div className='chart_header'>
+            <h2>Week 6<sup className='chart_sup'>th</sup> Of November </h2>
+        </div>
+
         <ul className='chart_list'>
             <li className='chart_container--text'>
                 <div className='chart_left'>
@@ -72,5 +78,6 @@ const [show, setShow] = useState(false)
             </li>
         ))}
       </ul>
+      </>
     )
 }
