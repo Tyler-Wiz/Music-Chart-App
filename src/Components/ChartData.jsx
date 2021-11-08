@@ -1,10 +1,18 @@
 
+export const categorylist = [
+  { id: 1, category: "all", value: "all" },
+  { id: 2, category: "design", value: "all" },
+  { id: 3, category: "desktop", value: "all" },
+  { id: 4, category: "mobile", value: "all" },
+  { id: 5, category: "web", value: "all" },
+];
 
 export const ChartData = [
     {
       id:1,
       change:1,
       songName:'High',
+      category: "web",
       artist:'Adekunle Gold, Davido',
       onChart:'1',
       imgUrl:'./Assets/Img/High.jpg',
@@ -20,6 +28,7 @@ export const ChartData = [
       change:1,
       songName:'Alcohol',
       artist:'Joeboy',
+      category: "design",
       onChart:'1',
       imgUrl:'./Assets/Img/Joeboy_alcohol.jpg', 
       stream:{
@@ -34,6 +43,7 @@ export const ChartData = [
       change:1,
       songName:'Monalisa',
       artist:'Sarz, Lojay',
+      category: "desktop",
       onChart:'1',
       imgUrl:'./Assets/Img/LojayMonalisa.jpg', 
       stream:{
@@ -49,6 +59,7 @@ export const ChartData = [
       change:1,
       songName:'Cold Outside',
       artist:'Timaya, BUJU',
+      category: "desktop",
       onChart:'1',
       imgUrl:'./Assets/Img/Coldoutside.jpeg', 
       stream:{
@@ -63,6 +74,7 @@ export const ChartData = [
       change:1,
       songName:'Peru',
       artist:'Fireboy DML',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/Fireboy-DML-Peru.jpeg', 
       stream:{
@@ -77,6 +89,7 @@ export const ChartData = [
       change:1,
       songName:'Egedege',
       artist:'Larry Gaaga, Theresa Onuorah, Flavour,Phyno',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/Egeedee.jpeg', 
       stream:{
@@ -91,6 +104,7 @@ export const ChartData = [
       change:1,
       songName:'Ozumba Mbadiwe',
       artist:'Reekado Banks',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/Ozumba-Mbadiwe.png', 
       stream:{
@@ -106,6 +120,7 @@ export const ChartData = [
       change:1,
       songName:'Holy Father',
       artist:'Mayorkun, Victony',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/HolyFather.jpg', 
       stream:{
@@ -120,6 +135,7 @@ export const ChartData = [
       change:1,
       songName:'Move',
       artist:'Bad Boy Timz',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl: './Assets/Img/Timz-Move.jpg', 
       stream:{
@@ -135,6 +151,7 @@ export const ChartData = [
       change:1,
       songName:'Never Stopped',
       artist:'Buju',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/SorryImLate.jpeg', 
       stream:{
@@ -150,6 +167,7 @@ export const ChartData = [
       change:1,
       songName:'Ale Yi',
       artist:'Zlatan',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/AleYi.jpeg', 
       stream:{
@@ -164,6 +182,7 @@ export const ChartData = [
       change:1,
       songName:'Running',
       artist:'LADIPOE, Fireboy DML',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/LadiPoe-Running.jpg', 
       stream:{
@@ -192,6 +211,7 @@ export const ChartData = [
       change:1,
       songName:'Gone Far',
       artist:'Zinoleesky',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/GoneFar.jpeg', 
       stream:{
@@ -206,6 +226,7 @@ export const ChartData = [
       change:1,
       songName:'Levels',
       artist:'Flavour',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/Levels.jpg', 
       stream:{
@@ -220,6 +241,7 @@ export const ChartData = [
       change:1,
       songName:'Lie',
       artist:'Kizz Daniel',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/Kizz-Daniel-Lie.jpg', 
       stream:{
@@ -234,6 +256,7 @@ export const ChartData = [
       change:1,
       songName:'Somebody’s Son',
       artist:'Tiwa Savage,Brandy',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/tiwa-savage-sombody-son.jpg', 
       stream:{
@@ -249,6 +272,7 @@ export const ChartData = [
       change:1,
       songName:'Understand',
       artist:'Omah Lay',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/Understand.jpeg', 
       stream:{
@@ -263,6 +287,7 @@ export const ChartData = [
       change:1,
       songName:'Mood',
       artist:'WizKid, Buju',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/made-in-lagos.jpeg', 
       stream:{
@@ -277,6 +302,7 @@ export const ChartData = [
       change:1,
       songName:'Kilometer',
       artist:'Buju',
+      category:['All', 'React', 'Front-End' ],
       onChart:'1',
       imgUrl:'./Assets/Img/SorryImLate.jpeg', 
       stream:{
@@ -285,5 +311,5 @@ export const ChartData = [
      },
      releaseDate:'Oct 27, 2021',
      totalStreams:'690,000'   
-    },
+    }
 ]

@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+:root{  
+    --primary:#010F31;
+    --secondary:#E1F2Fe;
+    --hoveState:#40798C; 
+}
+
 html {
     font-size: 10px;
 }
@@ -24,7 +30,7 @@ p {
     margin: 0;
     font-size:clamp(1rem, 2.5vw, 1.1rem) ;
     font-weight:400;
-    color: rgb(171, 193, 245);
+    color: var(--secondary);
 }
 
 body{
@@ -54,15 +60,14 @@ body{
     width: 100%;
     display: flex;
     padding: 1rem;
-    border-top: 1px solid rgb(171, 193, 245);
     cursor: pointer;
-    background-color: rgb(1, 15, 47);
+    background-color: var(--primary);
     color: white;
     margin: 0.2rem auto;
 }
 
-.chart_container:hover{
-    background-color: rgba(2, 37, 117, 0.383);
+.chart_container:hover, :focus{
+    background-color: var(--hoveState);
 }
 
 .chart_left{
@@ -82,7 +87,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(2, 37, 117, 0.698);
 }
 
 .chart_week{
@@ -92,17 +96,12 @@ body{
     align-items: center; 
 }
 
-.chart_img{
+.chart_img {
+    display: block;
     width: 6rem;
     height: 5.5rem;
-    align-self: flex-start;
-    margin-right: 1rem;
-}
-
-.chart_img img{
-    width: 100%;
-    height: 100%;
     object-fit: cover;
+    margin-right: 1rem;
 }
 .chart_song--info{
     align-self: center;
@@ -118,26 +117,11 @@ body{
     justify-content: space-between;
     width: 40%;
 }
-
-.chart_number--text {
-    width: 50%;
-    height: 100%;
+.extra{
+    padding: 1rem 2rem .3rem 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-
-.chart_container--text{
-    width: 100%;
-    display: flex;
-    padding: 1rem;
-    cursor: pointer;
-    margin-top: 3rem;
-    text-transform: uppercase;
-}
-
-.chart_mobile--number{
-    display: none;
 }
 
 @media (max-width:550px) {
